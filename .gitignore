@@ -1,0 +1,4 @@
+node_modules
+static/app.bundle.js
+.DS_Store
+public/dist

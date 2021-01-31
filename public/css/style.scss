@@ -1,0 +1,7 @@
+@import "mixins.scss";
+@import "colors.scss";
+@import "global.scss";
+
+.container {
+  @include flex(column);
+}

@@ -1,0 +1,59 @@
+[
+	{
+		"title": "Dream Inquiry: Discovering Chicago Surrealism",
+		"date": "March 12th - May 6th, 2021",
+		"examples": [
+			{
+				"image":"https://i.imgur.com/9DfzRzd.jpg",
+				"artist":"Penelope Rosemont",
+				"title":"In the Maze of Mirrors",
+				"year":"1995",
+				"dimensions":"10.5 x 13.5"
+			},			
+			{
+				"image":"https://i.imgur.com/k65zgE7.jpg",
+				"artist":"Megan Leach",
+				"title":"Shadows",
+				"year":"2020",
+				"dimensions":"10.5 x 13.5"
+			},
+			{
+				"image":"https://i.imgur.com/jYbXYyW.jpg",
+				"artist":"Eve Garrison",
+				"title":"Monster !",
+				"year":"1975",
+				"dimensions":"37 x 49.5"
+			},			
+			{
+				"image":"https://www.andresgarciadelariva.com/wp-content/uploads/4-72-e1517497204242.jpg",
+				"artist":"Andrés de la Riva",
+				"title":"Paseo",
+				"year":"2015",
+				"dimensions":"20 x 28"
+			},
+			{
+				"image":"https://i.imgur.com/FzDPS3f.png",
+				"artist":"Paris Bezanis",
+				"title":"Playdate",
+				"year":"2020",
+				"dimensions":"15 x 22"
+			}
+		],
+		"etc": [
+			{
+				"image":"https://i.imgur.com/HGPESkY.jpg",
+				"artist":"Penelope Rosemont",
+				"title":"Isadora Duncan",
+				"year":"1993",
+				"dimensions":"10.5 x 13.5"
+			},
+			{
+				"image":"https://i.imgur.com/5pfzjFT.jpg",
+				"artist":"Eve Garrison",
+				"title":"Untitled 1 (Glassed Nude Figure)",
+				"year":"1948",
+				"dimensions":"15 x 21.5"
+			}			
+		]
+	}
+]
