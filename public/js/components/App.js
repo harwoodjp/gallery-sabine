@@ -32,12 +32,12 @@ const Wrapper = styled.div`
 	line-height: 1.2;		
 	padding: 1em;
 	overflow: hidden;
-	width: 100%;
+	width: 95%;
 `
 
 const Image = styled.img`
-		align-self: center;
-		width: 90%;
+	align-self: center;
+	width: 90%;
 `
 const Previous = styled.div`
 	align-self: center;
