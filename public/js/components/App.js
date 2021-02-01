@@ -18,11 +18,18 @@ const AddressPanel = styled.div`
 	display: flex;
 	flex-direction: column;
 	width: 15%;
+	margin-bottom: 1em;	
+	@media (max-width: 1270px) {
+		width: 100%;
+	}			
 `
 const ImagePanel = styled.div`
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	width: 50%;
+	@media (max-width: 1270px) {
+		width: 100%;
+	}				
 `
 const Wrapper = styled.div`
 	// background: #efffe3;
@@ -33,11 +40,17 @@ const Wrapper = styled.div`
 	padding: 1em;
 	overflow: hidden;
 	width: 95%;
+	@media (max-width: 1270px) {
+		flex-direction: column;
+	}	
 `
 
 const Image = styled.img`
 	align-self: center;
 	width: 90%;
+	@media (max-width: 1270px) {
+		width: 90%;
+	}	
 `
 const Previous = styled.div`
 	align-self: center;
@@ -53,12 +66,29 @@ const Next = styled.div`
 const Slider = styled.div`
 	display: flex;
 	flex-direction: row;
+	@media (max-width: 1270px) {
+		width: 50%;
+		position: relative:
+		left: 1em;
+	}	
 `
 const SliderText = styled.div`
 	display: flex;
 	flex-direction: column;
 	height: 100%;		
 	justify-content: space-between;
+	@media (max-width: 1270px) {
+		display: none;
+	}		
+`
+const SliderTextMobile = styled.div`
+	display: none;
+	@media (max-width: 1270px) {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-left: 2em;
+	}			
 `
 
 const ExhibitionDetail = styled.div`
@@ -109,17 +139,25 @@ class App extends React.Component {
 						{this.state.currentExampleIndex == currentExhibition.examples.length - 1 &&
 							<Next>&nbsp;</Next>}							
 					</Slider>
+					<SliderTextMobile>
+						<ExhibitionDetail>
+							<span><i>{currentExhibition.title}</i></span>
+							<span>{currentExhibition.date}</span>
+						</ExhibitionDetail>
+						<ExampleDetail>
+							<span>{currentExhibition.examples[this.state.currentExampleIndex].artist}</span>
+							<span><i>{currentExhibition.examples[this.state.currentExampleIndex].title}</i></span>
+							<span>{currentExhibition.examples[this.state.currentExampleIndex].year}</span>
+							<span>{currentExhibition.examples[this.state.currentExampleIndex].dimensions}</span>
+						</ExampleDetail>
+					</SliderTextMobile>
 				</ImagePanel>
 				<Panel>
 					<SliderText>
 						<ExhibitionDetail>
 							<span><i>{currentExhibition.title}</i></span>
 							<span>{currentExhibition.date}</span>
-{/*							<br/>
-							<span>Featuring: Penelope Rosemont, Eve Garrison,</span>
-							<span>Richard Koppe, Andrés de la Riva, Paris Bezanis,</span>
-							<span>Megan Leach, Steven Cline</span>
-*/}						</ExhibitionDetail>
+						</ExhibitionDetail>
 						<ExampleDetail>
 							<span>{currentExhibition.examples[this.state.currentExampleIndex].artist}</span>
 							<span><i>{currentExhibition.examples[this.state.currentExampleIndex].title}</i></span>

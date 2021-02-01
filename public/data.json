@@ -4,19 +4,19 @@
 		"date": "March 12th - May 6th, 2021",
 		"examples": [
 			{
+				"image":"https://i.imgur.com/9DfzRzd.jpg",
+				"artist":"Penelope Rosemont",
+				"title":"In the Maze of Mirrors",
+				"year":"1995",
+				"dimensions":"10.5 x 13.5"
+			},			
+			{
 				"image":"https://i.imgur.com/k65zgE7.jpg",
 				"artist":"Megan Leach",
 				"title":"Shadows",
 				"year":"2020",
 				"dimensions":"10.5 x 13.5"
 			},
-			{
-				"image":"https://i.imgur.com/9DfzRzd.jpg",
-				"artist":"Penelope Rosemont",
-				"title":"In the Maze of Mirrors",
-				"year":"1995",
-				"dimensions":"10.5 x 13.5"
-			},						
 			{
 				"image":"https://i.imgur.com/5pfzjFT.jpg",
 				"artist":"Eve Garrison",
