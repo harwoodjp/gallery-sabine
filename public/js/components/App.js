@@ -21,6 +21,7 @@ const AddressPanel = styled.div`
 	margin-bottom: 1em;	
 	@media (max-width: 1270px) {
 		width: 100%;
+		margin-left: 2.5em;
 	}			
 `
 const ImagePanel = styled.div`
@@ -124,6 +125,7 @@ class App extends React.Component {
 				<AddressPanel>
 					<span>Gallery Sabine</span>
 					<span>1002 W 18th St</span>
+					<span>Chicago, IL</span>
 					<span>Th - Sun / 11 - 6</span>
 					<a href="">mail@gallerysabine.com</a>
 				</AddressPanel>
