@@ -21,7 +21,7 @@ const AddressPanel = styled.div`
 	margin-bottom: 1em;	
 	@media (max-width: 1270px) {
 		width: 100%;
-		margin-left: 2.5em;
+		margin-left: 3em;
 	}			
 `
 const ImagePanel = styled.div`
