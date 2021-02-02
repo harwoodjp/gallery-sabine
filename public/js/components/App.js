@@ -23,6 +23,11 @@ const AddressPanel = styled.div`
 		width: 100%;
 		margin-left: .5em;
 	}			
+	@media (max-width: 875px) {
+		width: 100%;
+		margin-left: 0;
+		text-align: center;
+	}			
 `
 const ImagePanel = styled.div`
 	display: flex;
@@ -33,6 +38,8 @@ const ImagePanel = styled.div`
 	}				
 	@media (max-width: 875px) {
 		flex-direction: column;
+		text-align: center;
+		align-items: center;
 	}				
 `
 const Wrapper = styled.div`
