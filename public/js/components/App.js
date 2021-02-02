@@ -21,7 +21,7 @@ const AddressPanel = styled.div`
 	margin-bottom: 1em;	
 	@media (max-width: 1270px) {
 		width: 100%;
-		margin-left: .5em;
+		margin-left: 2em;
 	}			
 	@media (max-width: 875px) {
 		width: 100%;
@@ -85,9 +85,9 @@ const Slider = styled.div`
 		margin-left:-1em;
 	}	
 	@media (max-width: 875px) {
-		width: 100%;
+		width: 90%;
 		margin-left: 0;
-		left: 2em;
+		left: 0;
 	}		
 `
 const SliderText = styled.div`
