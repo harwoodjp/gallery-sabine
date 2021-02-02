@@ -85,8 +85,9 @@ const Slider = styled.div`
 		margin-left:-1em;
 	}	
 	@media (max-width: 875px) {
-		width: 70%;
+		width: 100%;
 		margin-left: 0;
+		left: 2em;
 	}		
 `
 const SliderText = styled.div`
@@ -122,7 +123,7 @@ const ExhibitionDetailMobile = styled.div`
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		margin-left: .5em;
+		margin-left: 0;
 		margin-bottom: 1em;		
 	}	
 `
@@ -135,7 +136,7 @@ const ExampleDetailMobile = styled.div`
 	@media (max-width: 875px) {
 		display: flex;
 		flex-direction: column;
-		margin-left: .5em;
+		margin-left: 0;
 		margin-top: 1em;
 	}	
 `
