@@ -21,7 +21,7 @@ const AddressPanel = styled.div`
 	margin-bottom: 1em;	
 	@media (max-width: 1270px) {
 		width: 100%;
-		margin-left: 3em;
+		margin-left: 2em;
 	}			
 `
 const ImagePanel = styled.div`
@@ -30,6 +30,9 @@ const ImagePanel = styled.div`
 	width: 50%;
 	@media (max-width: 1270px) {
 		width: 100%;
+	}				
+	@media (max-width: 875px) {
+		flex-direction: column;
 	}				
 `
 const Wrapper = styled.div`
@@ -43,6 +46,7 @@ const Wrapper = styled.div`
 	width: 95%;
 	@media (max-width: 1270px) {
 		flex-direction: column;
+		padding: .5em;
 	}	
 `
 
@@ -71,7 +75,11 @@ const Slider = styled.div`
 		width: 50%;
 		position: relative:
 		left: 1em;
+		margin-left:-1em;
 	}	
+	@media (max-width: 875px) {
+		width: 70%;
+	}		
 `
 const SliderText = styled.div`
 	display: flex;
@@ -89,16 +97,39 @@ const SliderTextMobile = styled.div`
 		flex-direction: column;
 		justify-content: space-between;
 		margin-left: 2em;
-	}			
+	}
+	@media (max-width: 875px) {
+		display: none;
+	}	
 `
 
 const ExhibitionDetail = styled.div`
 	display: flex;
 	flex-direction: column;
 `
+
+const ExhibitionDetailMobile = styled.div`
+	display: none;
+	@media (max-width: 875px) {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-left: 2em;
+		margin-bottom: 1em;		
+	}	
+`
 const ExampleDetail = styled.div`
 	display: flex;
 	flex-direction: column;
+`
+const ExampleDetailMobile = styled.div`
+	display: none;
+	@media (max-width: 875px) {
+		display: flex;
+		flex-direction: column;
+		margin-left: 2em;
+		margin-top: 1em;
+	}	
 `
 
 const currentExhibition = data[0]
@@ -130,6 +161,10 @@ class App extends React.Component {
 					<a href="">mail@gallerysabine.com</a>
 				</AddressPanel>
 				<ImagePanel>
+					<ExhibitionDetailMobile>
+						<span><i>{currentExhibition.title}</i></span>
+						<span>{currentExhibition.date}</span>
+					</ExhibitionDetailMobile>				
 					<Slider>
 						{this.state.currentExampleIndex != 0 &&
 							<Previous onClick={this.decrementExampleIndex.bind(this)}>{"<"}</Previous>}
@@ -141,6 +176,12 @@ class App extends React.Component {
 						{this.state.currentExampleIndex == currentExhibition.examples.length - 1 &&
 							<Next>&nbsp;</Next>}							
 					</Slider>
+						<ExampleDetailMobile>
+							<span>{currentExhibition.examples[this.state.currentExampleIndex].artist}</span>
+							<span><i>{currentExhibition.examples[this.state.currentExampleIndex].title}</i></span>
+							<span>{currentExhibition.examples[this.state.currentExampleIndex].year}</span>
+							<span>{currentExhibition.examples[this.state.currentExampleIndex].dimensions}</span>
+						</ExampleDetailMobile>					
 					<SliderTextMobile>
 						<ExhibitionDetail>
 							<span><i>{currentExhibition.title}</i></span>
