@@ -27,6 +27,7 @@ const AddressPanel = styled.div`
 		width: 100%;
 		margin-left: 0;
 		text-align: center;
+		margin-top: .5em;
 	}			
 `
 const ImagePanel = styled.div`
@@ -85,9 +86,9 @@ const Slider = styled.div`
 		margin-left:-1em;
 	}	
 	@media (max-width: 875px) {
-		width: 90%;
-		margin-left: 0;
-		left: 0;
+		width: 92%;
+		position: relative;
+		left: -.75em;		
 	}		
 `
 const SliderText = styled.div`
