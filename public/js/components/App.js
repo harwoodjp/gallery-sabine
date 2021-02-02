@@ -21,7 +21,7 @@ const AddressPanel = styled.div`
 	margin-bottom: 1em;	
 	@media (max-width: 1270px) {
 		width: 100%;
-		margin-left: 2em;
+		margin-left: .5em;
 	}			
 `
 const ImagePanel = styled.div`
@@ -79,6 +79,7 @@ const Slider = styled.div`
 	}	
 	@media (max-width: 875px) {
 		width: 70%;
+		margin-left: .5em;
 	}		
 `
 const SliderText = styled.div`
@@ -114,7 +115,7 @@ const ExhibitionDetailMobile = styled.div`
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		margin-left: 2em;
+		margin-left: .5em;
 		margin-bottom: 1em;		
 	}	
 `
@@ -127,7 +128,7 @@ const ExampleDetailMobile = styled.div`
 	@media (max-width: 875px) {
 		display: flex;
 		flex-direction: column;
-		margin-left: 2em;
+		margin-left: .5em;
 		margin-top: 1em;
 	}	
 `
