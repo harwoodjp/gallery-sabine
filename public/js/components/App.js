@@ -86,7 +86,7 @@ const Slider = styled.div`
 	}	
 	@media (max-width: 875px) {
 		width: 70%;
-		margin-left: .5em;
+		margin-left: 0;
 	}		
 `
 const SliderText = styled.div`
