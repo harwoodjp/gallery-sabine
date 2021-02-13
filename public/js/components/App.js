@@ -22,12 +22,14 @@ const AddressPanel = styled.div`
 	@media (max-width: 1270px) {
 		width: 100%;
 		margin-left: 2em;
+		text-align: center;
+		margin-top: .5em;
+		margin-bottom: 2em;
 	}			
 	@media (max-width: 875px) {
 		width: 100%;
+		margin-bottom: 1em;
 		margin-left: 0;
-		text-align: center;
-		margin-top: .5em;
 	}			
 `
 const ImagePanel = styled.div`
