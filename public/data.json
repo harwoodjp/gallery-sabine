@@ -4,13 +4,6 @@
 		"date": "March 13th - May 9th, 2021",
 		"examples": [
 			{
-				"image":"https://i.imgur.com/sGdgNYy.png",
-				"artist":"Eve Garrison",
-				"title":"Robo Man",
-				"year":"1955",
-				"dimensions":"10.5 x 13.5"
-			},
-			{
 				"image":"https://i.imgur.com/bAPJPqZ.png",
 				"artist":"Penelope Rosemont",
 				"title":"In the Maze of Mirrors",
@@ -18,11 +11,18 @@
 				"dimensions":"10.5 x 13.5"
 			},			
 			{
-				"image": "https://i.imgur.com/ynDBLmc.png",
-				"artist":"Hazel Cline",
-				"title":"Highway Conveyor Belt Diptych",
+				"image":"https://i.imgur.com/sGdgNYy.png",
+				"artist":"Eve Garrison",
+				"title":"Robo Man",
+				"year":"1955",
+				"dimensions":"10.5 x 13.5"
+			},
+			{
+				"image":"https://i.imgur.com/k65zgE7.jpg",
+				"artist":"Megan Leach",
+				"title":"Shadows",
 				"year":"2020",
-				"dimensions":"5.5 x 5.5"				
+				"dimensions":"10.5 x 13.5"
 			},
 			{
 				"image":"https://i.imgur.com/X6EbsZn.png",
@@ -64,6 +64,7 @@
 			{
 				"image":"https://i.imgur.com/k65zgE7.jpg",
 				"artist":"Megan Leach",
+				"title":"Shadows",
 				"year":"2020",
 				"dimensions":"10.5 x 13.5"
 			},			
