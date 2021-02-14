@@ -4,6 +4,13 @@
 		"date": "March 13th - May 9th, 2021",
 		"examples": [
 			{
+				"image":"https://i.imgur.com/sGdgNYy.png",
+				"artist":"Eve Garrison",
+				"title":"Robo Man",
+				"year":"1955",
+				"dimensions":"10.5 x 13.5"
+			},
+			{
 				"image":"https://i.imgur.com/bAPJPqZ.png",
 				"artist":"Penelope Rosemont",
 				"title":"In the Maze of Mirrors",
@@ -11,24 +18,18 @@
 				"dimensions":"10.5 x 13.5"
 			},			
 			{
-				"image":"https://i.imgur.com/k65zgE7.jpg",
-				"artist":"Megan Leach",
+				"image": "https://i.imgur.com/ynDBLmc.png",
+				"artist":"Hazel Cline",
+				"title":"Highway Conveyor Belt Diptych",
 				"year":"2020",
-				"dimensions":"10.5 x 13.5"
+				"dimensions":"5.5 x 5.5"				
 			},
 			{
-				"image":"https://i.imgur.com/RdGqn0M.png",
-				"artist":"Eve Garrison",
-				"title":"Untitled 1 (Glassed Nude Figure)",
-				"year":"1948",
-				"dimensions":"15 x 21.5"
-			},			
-			{
-				"image":"https://i.imgur.com/SLJeM75.png",
-				"artist":"Andrés de la Riva",
-				"title":"Paseo",
+				"image":"https://i.imgur.com/X6EbsZn.png",
+				"artist":"Andrés Garcia de la Riva",
+				"title":"La espera",
 				"year":"2015",
-				"dimensions":"20 x 28"
+				"dimensions":"50 x 70"
 			},
 			{
 				"image":"https://i.imgur.com/sVsiAAn.png",
@@ -36,7 +37,7 @@
 				"title":"Playdate",
 				"year":"2020",
 				"dimensions":"15 x 22"
-			}
+			}			
 		],
 		"etc": [
 			{
@@ -59,6 +60,40 @@
 				"title":"Untitled 1 (Glassed Nude Figure)",
 				"year":"1948",
 				"dimensions":"15 x 21.5"
+			},
+			{
+				"image":"https://i.imgur.com/k65zgE7.jpg",
+				"artist":"Megan Leach",
+				"year":"2020",
+				"dimensions":"10.5 x 13.5"
+			},			
+			{
+				"image":"https://i.imgur.com/RdGqn0M.png",
+				"artist":"Eve Garrison",
+				"title":"Untitled 1 (Glassed Nude Figure)",
+				"year":"1948",
+				"dimensions":"15 x 21.5"
+			},
+			{
+				"image":"https://i.imgur.com/SLJeM75.png",
+				"artist":"Andrés de la Riva",
+				"title":"Paseo",
+				"year":"2015",
+				"dimensions":"20 x 28"
+			},
+			{
+				"image": "https://i.imgur.com/xkt4Cq6.png",
+				"artist":"Steven Cline",
+				"title":"Mall Spectre",
+				"year":"2020",
+				"dimensions":"10.5 x 13.5"				
+			},
+			{
+				"image":"https://i.imgur.com/yxxAnsG.png",
+				"artist":"Paris Bezanis",
+				"title":"Fish Revenge",
+				"year":"2020",
+				"dimensions":"15 x 22"
 			}			
 		]
 	}
