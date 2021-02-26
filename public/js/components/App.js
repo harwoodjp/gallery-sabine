@@ -145,6 +145,10 @@ const ExampleDetailMobile = styled.div`
 `
 
 const currentExhibition = data[0]
+currentExhibition.examples = currentExhibition.examples
+	.map((a) => ({sort: Math.random(), value: a}))
+	.sort((a, b) => a.sort - b.sort)
+	.map((a) => a.value)
 
 class App extends React.Component {
   constructor(props) {
@@ -153,6 +157,7 @@ class App extends React.Component {
   }
 	componentDidMount() {
 		console.log(data)
+		console.log(currentExhibition)
 	}
 	
 	incrementExampleIndex() {

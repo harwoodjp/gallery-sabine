@@ -18,12 +18,19 @@
 				"dimensions":"17.5 x 14"
 			},
 			{
-				"image":"https://i.imgur.com/k65zgE7.jpg",
-				"artist":"Megan Leach",
-				"title":"Shadows",
-				"year":"2020",
-				"dimensions":"10.5 x 13.5"
+				"image":"https://i.imgur.com/KTIrrpj.png",
+				"artist":"Eve Garrison",
+				"title":"Lady of Spain",
+				"year":"1956",
+				"dimensions":"16 x 20"
 			},
+			{
+				"image": "https://i.imgur.com/tOSZLda.png",
+				"artist":"Hazel Cline",
+				"title":"Finger Cig",
+				"year":"2020",
+				"dimensions":"10.5 x 13.5"				
+			},			
 			{
 				"image":"https://i.imgur.com/SLJeM75.png",
 				"artist":"Andrés Garcia de la Riva",
@@ -89,7 +96,6 @@
 				"year":"2020",
 				"dimensions":"10.5 x 13.5"				
 			},
-			
 			{
 				"image":"https://i.imgur.com/X6EbsZn.png",
 				"artist":"Andrés Garcia de la Riva",
@@ -103,6 +109,13 @@
 				"title":"Fish Revenge",
 				"year":"2020",
 				"dimensions":"15 x 22"
+			},
+			{
+				"image":"https://i.imgur.com/k65zgE7.jpg",
+				"artist":"Megan Leach",
+				"title":"Shadows",
+				"year":"2020",
+				"dimensions":"10.5 x 13.5"
 			}			
 		]
 	}
