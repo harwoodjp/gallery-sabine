@@ -143,6 +143,11 @@ const ExampleDetailMobile = styled.div`
 		margin-top: 1em;
 	}	
 `
+const RainbowSpan = styled.span`
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+`
 
 const currentExhibition = data[0]
 currentExhibition.examples = currentExhibition.examples
@@ -181,6 +186,7 @@ class App extends React.Component {
 					<ExhibitionDetailMobile>
 						<span><i>{currentExhibition.title}</i></span>
 						<span>{currentExhibition.date}</span>
+						<RainbowSpan>Opening: {currentExhibition.opening}</RainbowSpan>						
 					</ExhibitionDetailMobile>				
 					<Slider>
 						{this.state.currentExampleIndex != 0 &&
@@ -203,6 +209,7 @@ class App extends React.Component {
 						<ExhibitionDetail>
 							<span><i>{currentExhibition.title}</i></span>
 							<span>{currentExhibition.date}</span>
+							<RainbowSpan>Opening: {currentExhibition.opening}</RainbowSpan>							
 						</ExhibitionDetail>
 						<ExampleDetail>
 							<span>{currentExhibition.examples[this.state.currentExampleIndex].artist}</span>
@@ -217,6 +224,7 @@ class App extends React.Component {
 						<ExhibitionDetail>
 							<span><i>{currentExhibition.title}</i></span>
 							<span>{currentExhibition.date}</span>
+							<RainbowSpan>Opening: {currentExhibition.opening}</RainbowSpan>							
 						</ExhibitionDetail>
 						<ExampleDetail>
 							<span>{currentExhibition.examples[this.state.currentExampleIndex].artist}</span>
