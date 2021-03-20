@@ -1,13 +1,18 @@
 import normalize from "normalize.css"
 import scss from "../css/style.scss"
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {  BrowserRouter as Router, Route, Link, browserHistory } from 'react-router-dom'
 
-import React from "react"
-import { render } from "react-dom"
+import Exhibition from "./components/Exhibition"
+import Library from "./components/Library"
 
-
-import App from "./components/App"
-
-render(
-  <App />,
-  document.getElementById("app")
-)
+ReactDOM.render(
+	<Router history={browserHistory}>
+		<div>
+      <Route exact path="/" component={Exhibition}/>
+      <Route path="/library" component={Library}/>
+    </div>
+    </Router>,
+	document.getElementById("app")
+);
