@@ -1,6 +1,23 @@
 [
 	{
 		"title": "King Mob Echo",
+		"author": "Tom Vague",
+		"image": "https://i.imgur.com/6uMhwZq.jpg",
+		"year": "2000",
 		"link": "https://gallery-sabine.s3.us-east-2.amazonaws.com/pdfs/King+Mob+Echo.PDF"
+	},
+	{
+		"title": "International Surrealist Bulletin #4",
+		"author": "Surrealist Group In England",
+		"image": "https://i.imgur.com/z4TRdAo.png",
+		"year": "1936",
+		"link": "https://gallery-sabine.s3.us-east-2.amazonaws.com/pdfs/International+Surrealist+Bulletin.PDF"
+	},
+	{
+		"title": "The Match! #78",
+		"author": "Fred Woodworth",
+		"image": "https://i.imgur.com/TsLJ2RM.png",
+		"year": "1983",
+		"link": "https://gallery-sabine.s3.us-east-2.amazonaws.com/pdfs/The+Match.PDF"
 	}
 ]

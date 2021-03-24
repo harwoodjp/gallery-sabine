@@ -1,7 +1,7 @@
 import React from "react"
 import styled from 'styled-components'
 
-import data from "../../data.json"
+import data from "../../exhibitions.json"
 
 const Links = styled.div`
 	display: flex;
@@ -175,18 +175,21 @@ class Exhibition extends React.Component {
   render() {
     return (
 			<Wrapper>
-				<AddressPanel>
-					<span>Gallery Sabine</span>
-					<span>1002 W 18th St</span>
-					<span>Chicago, IL</span>
-					<span>Th - Sun / 11 - 6</span>
-					<a href="">mail@gallerysabine.com</a>
-				</AddressPanel>
+	      <AddressPanel>
+	        <span>Gallery Sabine</span>
+	        <span>1002 W 18th St</span>
+	        <span>Chicago, IL</span>
+	        <span>Th - Sun / 11 - 6</span>
+	        <a href="">mail@gallerysabine.com</a>
+	        <div style={{display: "flex"}}>
+	          {/*<a style={{color: "#81a7e3"}} href="/library">Library</a>*/}
+	        </div>
+	      </AddressPanel>      
 				<ImagePanel>
 					<ExhibitionDetailMobile>
 						<span><i>{currentExhibition.title}</i></span>
 						<span>{currentExhibition.date}</span>
-						<RainbowSpan>Opening: {currentExhibition.opening}</RainbowSpan>						
+							<span style={{color: "indianred"}}>Opening: {currentExhibition.opening}</span>							
 					</ExhibitionDetailMobile>				
 					<Slider>
 						{this.state.currentExampleIndex != 0 &&
@@ -209,7 +212,7 @@ class Exhibition extends React.Component {
 						<ExhibitionDetail>
 							<span><i>{currentExhibition.title}</i></span>
 							<span>{currentExhibition.date}</span>
-							<RainbowSpan>Opening: {currentExhibition.opening}</RainbowSpan>							
+							<span style={{color: "indianred"}}>Opening: {currentExhibition.opening}</span>							
 						</ExhibitionDetail>
 						<ExampleDetail>
 							<span>{currentExhibition.examples[this.state.currentExampleIndex].artist}</span>
@@ -224,7 +227,7 @@ class Exhibition extends React.Component {
 						<ExhibitionDetail>
 							<span><i>{currentExhibition.title}</i></span>
 							<span>{currentExhibition.date}</span>
-							<RainbowSpan>Opening: {currentExhibition.opening}</RainbowSpan>							
+							<span style={{color: "indianred"}}>Opening: {currentExhibition.opening}</span>							
 						</ExhibitionDetail>
 						<ExampleDetail>
 							<span>{currentExhibition.examples[this.state.currentExampleIndex].artist}</span>
