@@ -11,7 +11,7 @@ ReactDOM.render(
 	<Router history={browserHistory}>
 		<div>
       <Route exact path="/" component={Exhibition}/>
-      <Route path="/library" component={Library}/>
+      <Route path="/archive" component={Library}/>
     </div>
     </Router>,
 	document.getElementById("app")

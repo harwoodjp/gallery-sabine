@@ -19,5 +19,56 @@
 		"image": "https://i.imgur.com/TsLJ2RM.png",
 		"year": "1983",
 		"link": "https://gallery-sabine.s3.us-east-2.amazonaws.com/pdfs/The+Match.PDF"
-	}
+	},
+
+	{
+		"title": "Anarchist Youth #3",
+		"author": "Adrian Cunningham, Wynford Hicks, Charles Radcliffe",
+		"image": "https://i.imgur.com/CyuOKzn.png",
+		"year": "1963",
+		"link": "https://gallery-sabine.s3.us-east-2.amazonaws.com/pdfs/Anarchist+Youth+3.PDF"
+	},
+	{
+		"title": "Cultural Correspondence #12-14",
+		"author": "Various",
+		"image": "https://i.imgur.com/eCAiaCb.png",
+		"year": "1981",
+		"link": "https://gallery-sabine.s3.us-east-2.amazonaws.com/pdfs/Cultural+Correspondence.PDF"
+	},
+	{
+		"title": "Heatwave #2",
+		"author": "Charles Radcliffe",
+		"image": "https://i.imgur.com/iyElmGw.png",
+		"year": "1963",
+		"link": "https://gallery-sabine.s3.us-east-2.amazonaws.com/pdfs/Heatwave2.PDF"
+	},
+	{
+		"title": "Heatwave #3",
+		"author": "Charles Radcliffe",
+		"image": "https://i.imgur.com/Qnnaf5s.png",
+		"year": "",
+		"link": "https://gallery-sabine.s3.us-east-2.amazonaws.com/pdfs/Heatwave3.PDF"
+	},
+	{
+		"title": "Leaving the 20th Century: ",
+		"author": "Christopher Gray",
+		"image": "https://i.imgur.com/iFwhDvp.png",
+		"year": "1974",
+		"link": "https://gallery-sabine.s3.us-east-2.amazonaws.com/pdfs/Leaving+the+20th+Century.PDF"
+	},
+	{
+		"title": "Marvelous Freedom, Vigilance of Desire",
+		"author": "Chicago Surrealist Group",
+		"image": "https://i.imgur.com/CX7RxrO.png",
+		"year": "1976",
+		"link": "https://gallery-sabine.s3.us-east-2.amazonaws.com/pdfs/Marvelous+Freedom+Vigilance+of+Desire.PDF"
+	},
+	{
+		"title": "The Rebel Worker #6",
+		"author": "IWW members, Charles Radcliffe",
+		"image": "https://i.imgur.com/sqfg9Ax.png",
+		"year": "1966",
+		"link": "https://gallery-sabine.s3.us-east-2.amazonaws.com/pdfs/The+Rebel+Worker.PDF"
+	}	
+
 ]
