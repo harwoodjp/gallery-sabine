@@ -189,7 +189,6 @@ class Exhibition extends React.Component {
 					<ExhibitionDetailMobile>
 						<span><i>{currentExhibition.title}</i></span>
 						<span>{currentExhibition.date}</span>
-							<span style={{color: "indianred"}}>Opening: {currentExhibition.opening}</span>							
 					</ExhibitionDetailMobile>				
 					<Slider>
 						{this.state.currentExampleIndex != 0 &&
@@ -212,7 +211,6 @@ class Exhibition extends React.Component {
 						<ExhibitionDetail>
 							<span><i>{currentExhibition.title}</i></span>
 							<span>{currentExhibition.date}</span>
-							<span style={{color: "indianred"}}>Opening: {currentExhibition.opening}</span>							
 						</ExhibitionDetail>
 						<ExampleDetail>
 							<span>{currentExhibition.examples[this.state.currentExampleIndex].artist}</span>
@@ -227,7 +225,6 @@ class Exhibition extends React.Component {
 						<ExhibitionDetail>
 							<span><i>{currentExhibition.title}</i></span>
 							<span>{currentExhibition.date}</span>
-							<span style={{color: "indianred"}}>Opening: {currentExhibition.opening}</span>							
 						</ExhibitionDetail>
 						<ExampleDetail>
 							<span>{currentExhibition.examples[this.state.currentExampleIndex].artist}</span>
