@@ -1,5 +1,77 @@
 [
 	{
+		"title": "Commodity Form: Labor/Pop Perspectives",
+		"date": "June 19th - August 14th, 2021",
+		"opening": "Saturday, March 27th, 5-10pm",
+		"examples": [
+			{
+				"image":"https://i.imgur.com/8CM0QKn.png",
+				"artist":"Richard Merkin",
+				"title":"Henry Darger in Old Chicago",
+				"year":"2006",
+				"dimensions":"44 x 66"
+			},
+			{
+				"image":"https://i.imgur.com/gJDOOAJ.png",
+				"artist":"John Kilduff",
+				"title":"Goya's Nude Maja on a Can of Beans",
+				"year":"2020",
+				"dimensions":"18 x 22"
+			},			
+			{
+				"image":"https://i.imgur.com/ZvPhMxW.png",
+				"artist":"Christine Ferrera",
+				"title":"Fill the Void",
+				"year":"1998",
+				"dimensions":"18 x 22"
+			},			
+			{
+				"image":"https://i.imgur.com/IDljMQu.png",
+				"artist":"Tom Palazzolo",
+				"title":"To Gogh",
+				"year":"2006",
+				"dimensions":"44 x 66"
+			},
+			{
+				"image":"https://i.imgur.com/ncmMn4f.png",
+				"artist":"Mike Konpacki",
+				"title":"Used or Old Workers",
+				"year":"1980s",
+				"dimensions":"44 x 66"
+			},
+			{
+				"image":"https://i.imgur.com/dbsFX3s.png",
+				"artist":"Daniel Green",
+				"title":"Cher The Song",
+				"year":"2019",
+				"dimensions":"18 x 22.5"
+			},			
+			{
+				"image":"https://i.imgur.com/fFMvMhd.png",
+				"artist":"Andre Pace",
+				"title":"Judiest priest/purple carrots",
+				"year":"2020",
+				"dimensions":"3 x 4"
+			}			
+		],
+		"etc": [
+			{
+				"image":"https://i.imgur.com/gJDOOAJ.png",
+				"artist":"Christine Ferrera",
+				"title":"Evil",
+				"year":"1998",
+				"dimensions":"18 x 22"
+			},			
+			{
+				"image":"https://i.imgur.com/fxNR85M.png",
+				"artist":"Daniel Green",
+				"title":"Boy and Lady",
+				"year":"2014",
+				"dimensions":"8.5 x 5 x 5"
+			}
+		]
+	},
+	{
 		"title": "Dream Inquiry: Discovering Chicago Surrealism",
 		"date": "March 27th - May 30th, 2021",
 		"opening": "Saturday, March 27th, 5-10pm",
@@ -126,5 +198,5 @@
 				"year":"2020"
 			}			
 		]
-	}
+	}	
 ]
