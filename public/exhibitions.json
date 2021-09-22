@@ -1,5 +1,77 @@
 [
 	{
+		"title": "Everyday Life: Images, Objects, Assemblages",
+		"date": "October 2nd - December 11th, 2021",
+		"opening": "Saturday, October 2nd, 6-10pm",
+		"examples": [ 
+			{
+				"image":"https://i.imgur.com/q8OoduG.png",
+				"artist":"Laura Letinsky",
+				"title":"Untitled #10",
+				"year":"2021",
+				"dimensions":"20 x 16"
+			},			
+			{
+				"image":"https://i.imgur.com/XN5GcOp.png",
+				"artist":"Elinore Schnurr",
+				"title":"The Elevator #38",
+				"year":"1996",
+				"dimensions":"23 x 23"
+			},
+			{
+				"image":"https://i.imgur.com/ZcNzZsd.png",
+				"artist":"Frank Zirbel",
+				"title":"The Dreamer and the Dreamed",
+				"year":"1990",
+				"dimensions":"15 x 12"
+			},			
+			{
+				"image":"https://i.imgur.com/Y87EkAY.png",
+				"artist":"Robert Buccholz",
+				"title":"Serie V",
+				"year":"2020",
+				"dimensions":"8 x 10"
+			},			
+			{
+				"image":"https://i.imgur.com/uAkGtla.png",
+				"artist":"Tom Palazzolo",
+				"title":"Maxwell Street",
+				"year":"1963",
+				"dimensions":"12 x 8.5"
+			},			
+			{
+				"image":"https://i.imgur.com/eQ4CfMX.png",
+				"artist":"Diane Green",
+				"title":"Such a Happy Hour",
+				"year":"2014",
+				"dimensions":"20 x 16"
+			},			
+			{
+				"image":"https://i.imgur.com/jc1CL2D.png",
+				"artist":"Jonah Criswell",
+				"title":"Distractions and Sore Limbs",
+				"year":"2020",
+				"dimensions":"9 x 12"
+			},
+			{
+				"image":"https://i.imgur.com/zIUqdK2.png",
+				"artist":"Bettina Cousineau",
+				"title":"Downtown/Backyard",
+				"year":"2021",
+				"dimensions":"48 x 48"
+			}			
+		],
+		"etc": [
+			{
+				"image":"https://i.imgur.com/Vy6uKKC.png",
+				"artist":"Frank Zirbel",
+				"title":"The Dreamer and the Dreamed",
+				"year":"1990",
+				"dimensions":"15 x 12"
+			}
+		]
+	},	
+	{
 		"title": "Commodity Form: Labor/Pop Perspectives",
 		"date": "June 26th - August 21st, 2021",
 		"opening": "Saturday, June 26th, 6-10pm",
