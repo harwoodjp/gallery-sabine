@@ -1,5 +1,54 @@
 [
 	{
+		"title": "Vanishing Point: \nBlack Mask, IWW, and the Atelier Populaire",
+		"date": "February 4th - February 13th, 2021",
+		"opening": "Friday, February 4th, 7-10pm",
+		"examples": [ 
+			{
+				"image":"https://i.imgur.com/6yV1E9a.png",
+				"artist":"Atelier Populaire",
+				"title":"Pouvoir Populaire",
+				"year":"1968",
+				"dimensions":""
+			},			
+			{
+				"image":"https://i.imgur.com/MDtuxwE.png",
+				"artist":"Atelier Populaire",
+				"title":"Police",
+				"year":"1968",
+				"dimensions":""
+			},			
+			{
+				"image":"https://i.imgur.com/prmWHpz.png",
+				"artist":"Up Against the Wall Motherfucker",
+				"title":"Make it Happen",
+				"year":"1966",
+				"dimensions":""
+			},			
+			{
+				"image":"https://i.imgur.com/gOpiq3Y.png",
+				"artist":"Ben Morea",
+				"title":"6/93",
+				"year":"1993",
+				"dimensions":""
+			},			
+			{
+				"image":"https://i.imgur.com/tgcuR0d.jpg",
+				"artist":"Ben Morea",
+				"title":"10/92",
+				"year":"1992",
+				"dimensions":""
+			},
+			{
+				"image":"https://i.imgur.com/JHOCsAU.png",
+				"artist":"S.F. Anarcho-Syndicalist Workers",
+				"title":"Fellow Workers",
+				"year":"",
+				"dimensions":""
+			}	
+		]
+	},	
+	{
 		"title": "Everyday Life: Images, Objects, Assemblages",
 		"date": "October 2nd - December 11th, 2021",
 		"opening": "Saturday, October 2nd, 6-10pm",

@@ -118,6 +118,7 @@ const SliderTextMobile = styled.div`
 const ExhibitionDetail = styled.div`
 	display: flex;
 	flex-direction: column;
+	width:30em;
 `
 
 const ExhibitionDetailMobile = styled.div`
