@@ -2,19 +2,19 @@
 	{
 		"title": "Vanishing Point: \nBlack Mask, IWW, and the Atelier Populaire",
 		"date": "February 4th - February 13th, 2021",
-		"opening": "Friday, February 4th, 7-10pm",
+		"opening": "Friday, February 4th, 6-10pm",
 		"examples": [ 
-			{
-				"image":"https://i.imgur.com/6yV1E9a.png",
-				"artist":"Atelier Populaire",
-				"title":"Pouvoir Populaire",
-				"year":"1968",
-				"dimensions":""
-			},			
 			{
 				"image":"https://i.imgur.com/MDtuxwE.png",
 				"artist":"Atelier Populaire",
 				"title":"Police",
+				"year":"1968",
+				"dimensions":""
+			},			
+			{
+				"image":"https://i.imgur.com/6yV1E9a.png",
+				"artist":"Atelier Populaire",
+				"title":"Pouvoir Populaire",
 				"year":"1968",
 				"dimensions":""
 			},			

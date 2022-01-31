@@ -171,7 +171,7 @@ class Exhibition extends React.Component {
 	}
 	decrementExampleIndex() {
 		this.setState({ currentExampleIndex: this.state.currentExampleIndex - 1 })
-	}
+	}z
 
   render() {
     return (
@@ -190,6 +190,7 @@ class Exhibition extends React.Component {
 					<ExhibitionDetailMobile>
 						<span><i>{currentExhibition.title}</i></span>
 						<span>{currentExhibition.date}</span>
+						<span style={{color: "red"}}><red>Opening: {currentExhibition.opening}</red></span>							
 					</ExhibitionDetailMobile>				
 					<Slider>
 						{this.state.currentExampleIndex != 0 &&
@@ -212,6 +213,7 @@ class Exhibition extends React.Component {
 						<ExhibitionDetail>
 							<span><i>{currentExhibition.title}</i></span>
 							<span>{currentExhibition.date}</span>
+						<span style={{color: "red"}}><red>Opening: {currentExhibition.opening}</red></span>							
 						</ExhibitionDetail>
 						<ExampleDetail>
 							<span>{currentExhibition.examples[this.state.currentExampleIndex].artist}</span>
@@ -226,6 +228,7 @@ class Exhibition extends React.Component {
 						<ExhibitionDetail>
 							<span><i>{currentExhibition.title}</i></span>
 							<span>{currentExhibition.date}</span>
+						<span style={{color: "red"}}><red>Opening: {currentExhibition.opening}</red></span>							
 						</ExhibitionDetail>
 						<ExampleDetail>
 							<span>{currentExhibition.examples[this.state.currentExampleIndex].artist}</span>
