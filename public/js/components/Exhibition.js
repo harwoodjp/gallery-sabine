@@ -190,7 +190,6 @@ class Exhibition extends React.Component {
 					<ExhibitionDetailMobile>
 						<span><i>{currentExhibition.title}</i></span>
 						<span>{currentExhibition.date}</span>
-						<span style={{color: "red"}}><red>Opening: {currentExhibition.opening}</red></span>							
 					</ExhibitionDetailMobile>				
 					<Slider>
 						{this.state.currentExampleIndex != 0 &&
